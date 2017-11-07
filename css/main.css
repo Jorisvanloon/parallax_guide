@@ -11,7 +11,7 @@
   /*background: blue;*/
 }
 .progress{
-  height: 7px;
+  height: 50px;
   background: #00F1C9;
   width: 0;
   transition: width 0.5s;
@@ -31,6 +31,10 @@ html, body {
 h4 {
   font-size: 22px;
   margin-bottom: 28px;
+}
+
+h5{
+  font-size: 16px;
 }
 p {
   font-size: 22px;
@@ -236,7 +240,7 @@ section.san-francisco {
 
 .afbeelding{
   margin: 5% 0;
-  z-index: -1;
+  z-index: ;
 }
 
 .overstappen{
@@ -364,6 +368,26 @@ span.white {
   color: #fff;
 }
 
+.planning{
+  margin: 8% 0;
+}
+
+.einde h1 {
+  font-size: 76px;
+  font-weight: 900;
+  letter-spacing: 0em;
+  padding-top: 5%;
+  margin: 0;
+  margin-left: -6px;
+}
+.einde h1 span {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 18px;
+  vertical-align: top;
+  letter-spacing: 0;
+}
+
 
 @-webkit-keyframes fuzz /* Safari and Chrome */ {
   0% {
@@ -440,6 +464,17 @@ span.white {
 
 /*Bootsnip*/
 
+.process i{
+  color: #00F1C9;
+  border: none;
+  background: transparent;
+}
+
+.process-step button{
+  border: none;
+  background: transparent;
+}
+
 .processteps{
   margin: 10% 0px;
 }
@@ -462,7 +497,7 @@ span.white {
     filter: alpha(opacity=100) !important;
 }
 
-.process-row:before {
+/*.process-row:before {
     top: 50px;
     bottom: 0;
     position: absolute;
@@ -472,7 +507,7 @@ span.white {
     background-color: #ccc;
     z-order: 0;
     
-}
+}*/
 
 .process-step {    
     display: table-cell;
@@ -486,14 +521,14 @@ span.white {
 }
 
 .btn-circle {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   text-align: center;
   padding: 6px 0;
   font-size: 12px;
   line-height: 1.428571429;
-  border-radius: 15px;
-  background: red;
+  border-radius: 105px;
+  
 }
 
 
@@ -523,6 +558,67 @@ span.white {
 
 @media (max-width: 767px) {
 
+
+  h1{
+    font-size: 50px !important;
+  }  
+  .grid{
+    width: 100%;
+  }
+
+  .main h2{
+    font-size: 16px;
+  }
+
+  .main h1{
+    font-size: 75px;
+    padding: 0px 5px;
+  }
+
+  .kop2 h1{
+    font-size: 55px;
+    padding: 0px 5px;
+  }
+
+  .process i{
+  color: #00F1C9;
+  border: none;
+  font-size: 40px;
+  background: transparent;
+}
+
+.process-step button{
+  border: none;
+  background: transparent;
+}
+
+.processteps p{
+  font-size: 16px;
+}
+
+  .btn-circle {
+  width: 85px;
+  height: 85px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 105px;
+  
+}
+
+video{
+  width: 300px;
+}
+
+img{
+  height: 160px;
+}
+
+.flatmacbook img{
+  height: 160px;
+  margin: 0px 10px;
+}
 
 }
 
