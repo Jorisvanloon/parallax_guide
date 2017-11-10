@@ -8,8 +8,6 @@ Het maakt niet uit of je een web agency of een bedrijf bent: slecht webdesign zo
 
 ### De Handleiding gebruiken
 
-What things you need to install the software and how to install them
-
 ```
 Nothing, just read the thing! 
 ```
