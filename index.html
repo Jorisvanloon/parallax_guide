@@ -1,294 +1,243 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Parallax Effect - Jovalo.nl</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Parallax Effect - Jovalo.nl</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro: 200,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro: 200,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="http://code.jquery.com/color/jquery.color-2.1.0.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/color/jquery.color-2.1.0.js"></script>
 
-    <!-- Chart js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.js"></script>
+  <!-- Chart js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.js"></script>
 
-    <!-- Booooooootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Typed.js -->
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15309/typed.min.js"></script>
+  <!-- Typed.js -->
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15309/typed.min.js"></script>
 
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 
-    <!-- AOS -->
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <!-- AOS -->
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+</head>
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <div class="grid">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-offset-1 col-md-2 col-xs-offset-1 col-xs-2">
-            <div class="grid-line"></div>
-          </div>
-          <div class="col-md-2 col-xs-2" >
-            <div class="grid-line"></div>
-          </div>
-          <div class="col-md-2 col-xs-2" >
-            <div class="grid-line"></div>
-          </div>
-          <div class="col-md-2 col-xs-2">
-            <div class="grid-line"></div>
-          </div>
-          <div class="col-md-2 col-xs-2">
-            <div class="grid-line" style="margin-right:-30px;border-right:1px solid #ccc"></div>
-          </div>
+<body>
+  <!-- Hier wordt GRID aangemaakt -->
+  <div class="grid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-1 col-md-2 col-xs-offset-1 col-xs-2">
+          <div class="grid-line"></div>
+        </div>
+        <div class="col-md-2 col-xs-2" >
+          <div class="grid-line"></div>
+        </div>
+        <div class="col-md-2 col-xs-2" >
+          <div class="grid-line"></div>
+        </div>
+        <div class="col-md-2 col-xs-2">
+          <div class="grid-line"></div>
+        </div>
+        <div class="col-md-2 col-xs-2">
+          <div class="grid-line" style="margin-right:-30px;border-right:1px solid #ccc"></div>
         </div>
       </div>
     </div>
-    
+  </div>
 
-    <div class="fixed-top rellax" data-rellax-speed="-2"
+
+  <div class="fixed-top rellax" data-rellax-speed="-2"
+  style="transform: rotate(45deg);">
+</div>
+
+<main class="main">
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-1 col-md-11 col-xs-6">
+          <a href="http://jovalo.com/">
+            <h2>BY JORIS VAN LOON <span>➔</span></h2>
+          </a>
+          <div class="white-block"></div>
+        </div>
+      </div>
+      <div class="title">
+        <div class="row">
+          <div class="col-md-offset-1 col-md-6">
+            <h1>GROWTH DRIVEN DESIGN<span>BS</span></h1>
+            <div class="type-wrap">
+              <h3>
+                <span role="presentation" aria-hidden="true"></span>
+              </h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-6 text-right">
+            <a href="https://github.com/Jorisvanloon/parallax_guide">GITHUB</a>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="subtitle">
+      </div>
+    </header>
+
+
+    <!-- Hier krijgen shapes vorm -->
+
+    <section class="section san-francisco">
+      <div class="absolute">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-offset-1 col-md-11">
+              <h2 class="rellax" data-rellax-speed="4">Eindhoven<br>Noord-Brabant</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="absolute above">
+        <div class="container">
+          <div class="row">
+            <div class="sm-green rellax"
+            data-rellax-speed="5"
+            style="transform: rotate(45deg);">
+          </div>
+        </div>
+
+        <div class="col-md-offset-2 col-md-1 col-xs-offset-2 col-xs-1">
+          <div class="sm-purple rellax"
+          data-rellax-speed="2"
+          style="transform: rotate(45deg);">
+        </div>
+      </div>
+
+      <div class="col-md-offset-3 col-md-1 col-xs-offset-3 col-xs-1">
+        <div class="xs-green rellax"
+        data-rellax-speed="5"
+        style="transform: rotate(45deg);">
+      </div>
+      <div class="md-green rellax"
+      data-rellax-speed="1"
       style="transform: rotate(45deg);">
     </div>
+  </div>
 
-    <main class="main">
-      <header>
+  <div class="col-md-1 col-xs-1">
+    <div class="lg-purple rellax"
+    data-rellax-speed="3"
+    style="transform: rotate(45deg);">
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-offset-1 col-md-5">
+      <div class="date">
+        In opdracht van<br>
+        Fontys Hogeschool<br><br>
+        <p id="demo"></p>
+      </div>
+
+    </div>
+    <div class="col-md-offset-1 col-md-4">
+      <div class="temp">
+        10e
+      </div>
+      <p id="demo1"></p>
+    </div>
+
+  </div>
+</div>
+<div class="col-md-12" data-aos="fade-down" style="padding-left:0px;">
+  <img src="img/arrow.png" alt="">
+</div>
+
+
+</section>
+
+
+<section class="section">
+  <div style="margin-top: 200px">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12 text-center kop2">
+          <h1>GROWTH DRIVEN DESIGN</h1>
+          <h5>Nieuwkomer.</h5>
+        </div>
+      </div>
+
+      <div class="absolute">
         <div class="container">
           <div class="row">
-            <div class="col-md-offset-1 col-md-11 col-xs-6">
-              <a href="http://jovalo.com/">
-                <h2>BY JORIS VAN LOON <span>➔</span></h2>
-              </a>
-              <div class="white-block"></div>
-            </div>
-          </div>
-          <div class="title">
-            <div class="row">
-              <div class="col-md-offset-1 col-md-6">
-                <h1>GROWTH DRIVEN DESIGN<span>BS</span></h1>
-                <div class="type-wrap">
-                  <h3>
-                    <span role="presentation" aria-hidden="true"></span>
-                  </h3>
-                </div>
-              </div>
-              <div class="col-md-4 col-xs-6 text-right">
-                <a href="https://github.com/Jorisvanloon/parallax_guide">GITHUB</a>
-                
-              </div>
-
-            </div>
-          </div>
-          <div class="subtitle">
-<!--             <div class="row">
-              <div class="col-md-offset-1 col-md-2">
-                <h3>Light (871b gz)</h3>
-              </div>
-              <div class="col-md-2">
-                <h3>Vanilla Javascript</h3>
-              </div>
-              <div class="col-md-2">
-                <h3>Parallax Library</h3>
-              </div>
-          </div> -->
-        </div>
-      </header>
-
-
-
-
-      <section class="section san-francisco">
-        <div class="absolute">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-offset-1 col-md-11">
-                <h2 class="rellax" data-rellax-speed="4">Eindhoven<br>Noord-Brabant</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="absolute above">
-          <div class="container">
-            <div class="row">
-
-             
-               <!--   <div class="col-md-offset-1 col-md-2">
-                <div class="lg-green rellax"
-                  data-rellax-speed="2"
-                  style="transform: rotate(90deg);">
-                </div> -->
-                <div class="sm-green rellax"
-                  data-rellax-speed="5"
-                  style="transform: rotate(45deg);">
-                </div>
-              </div>
-<!--                  <div class="col-md-1">
-                <div class="lg-red rellax"
-                  data-rellax-speed="2"
-                  style="transform: rotate(45deg);">
-                </div> -->
-              <div class="col-md-offset-2 col-md-1 col-xs-offset-2 col-xs-1">
-                <div class="sm-purple rellax"
-                  data-rellax-speed="2"
-                  style="transform: rotate(45deg);">
-                </div>
-              </div>
-
-              <div class="col-md-offset-3 col-md-1 col-xs-offset-3 col-xs-1">
-                <div class="xs-green rellax"
-                  data-rellax-speed="5"
-                  style="transform: rotate(45deg);">
-                </div>
-                <div class="md-green rellax"
-                  data-rellax-speed="1"
-                  style="transform: rotate(45deg);">
-                </div>
-              </div>
-
-              <div class="col-md-1 col-xs-1">
-                <div class="lg-purple rellax"
-                  data-rellax-speed="3"
-                  style="transform: rotate(45deg);">
-                </div>
-              </div>
+            <div class="col-md-offset-1 col-md-11">
+              <h2 class="rellax" data-rellax-speed="-3">Vernieuwing is spannend</h2>
 
             </div>
           </div>
         </div>
+      </div>
 
-
-        <div class="container">
-
+      <div class="absolute">
+        <div class="eigen_container">
           <div class="row">
-            <div class="col-md-offset-1 col-md-5">
-              <div class="date">
-                In opdracht van<br>
-                Fontys Hogeschool<br><br>
-                <p id="demo"></p>
-              </div>
-              
+            <div class="col-md-offset-0 col-md-12">
             </div>
-            <div class="col-md-offset-1 col-md-4">
-              <div class="temp">
-                10e
-              </div>
-              <p id="demo1"></p>
-            </div>
-            
           </div>
         </div>
-        <div class="col-md-12" data-aos="fade-down" style="padding-left:0px;">
-              <img src="img/arrow.png" alt="">
+      </div>
+
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
+          <p class="paragraaftekst">
+            Het maakt niet uit of je een web agency of een bedrijf bent:
+            slecht webdesign zorgt voor een grote kwetsbaarheid, een groot
+            aantal risico’s en resultaten die allesbehalve optimaal zijn.
+            <br></br>
+            Het ‘growth-driven design’ is daarom de nieuwe standaard om
+            de gewenste resultaten te verkrijgen: dit type design brengt
+            immers meetbare waarde binnen in het bedrijf.
+            We spreken over een slimmere, flexibelere en data-gedreven
+            aanpak die optimaal presterende websites produceert.
+            <br></br>
+            Ben je niet tevreden met je huidige resultaten of zit je middenin
+            een redesign-nachtmerrie? <br></br>
+            Stap over op Growth Driven Design!
+            <br></br>
+            <button class="overstappen">Ik wil overstappen!</button> <-- Nee die werkt niet.
+
+          </p>
+
         </div>
 
 
-      </section>
+      </div>>
 
+      <div class="row">
+        <div class="col-md-12 text-center" style="margin-top:40px">
+          <h4>TRADITIONEEL WEBDESIGN IS DOOD.</h4>
+        </div>
+      </div>
 
-     <!--  <section class="section">
-
-      </section> -->
-
-
-      <section class="section">
-        <div style="margin-top: 200px">
-          <div class="container">
-
-              <div class="row">
-                <div class="col-md-12 text-center kop2">
-                  <h1>GROWTH DRIVEN DESIGN</h1>
-                  <h5>Nieuwkomer.</h5>
-                </div>
-              </div>
-
-          <div class="absolute">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-offset-1 col-md-11">
-                  <h2 class="rellax" data-rellax-speed="-3">Vernieuwing is spannend</h2>
-                 
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="absolute">
-              <div class="eigen_container">
-                    <div class="row">
-                      <div class="col-md-offset-0 col-md-12">
-                        <!-- <img height="350" class="rellax" data-rellax-speed="-3" data-rellax-zindex="5" src="img/persona.jpg" data-aos="fade-right" alt=""> -->
-                      </div>
-                    </div>
-              </div>
-          </div>
-
-              <div class="row">
-                <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
-                  <p class="paragraaftekst">
-                    Het maakt niet uit of je een web agency of een bedrijf bent:
-                    slecht webdesign zorgt voor een grote kwetsbaarheid, een groot
-                    aantal risico’s en resultaten die allesbehalve optimaal zijn.
-                    <br></br>
-                     Het ‘growth-driven design’ is daarom de nieuwe standaard om
-                      de gewenste resultaten te verkrijgen: dit type design brengt
-                      immers meetbare waarde binnen in het bedrijf.
-                      We spreken over een slimmere, flexibelere en data-gedreven
-                      aanpak die optimaal presterende websites produceert.
-                     <br></br>
-                     Ben je niet tevreden met je huidige resultaten of zit je middenin
-                    een redesign-nachtmerrie? <br></br>
-                    Stap over op Growth Driven Design!
-                    <br></br>
-                    <button class="overstappen">Ik wil overstappen!</button> <-- Nee die werkt niet.
-
-              <!-- Lees dan zeker dit e-book:
-                      wij leggen je stap voor stap uit wat de problematische
-                      fundamenten van het traditionele webdesign zijn, en vullen deze
-                      aan met enkele aanbevelingen voor een productievere manier
-                      van designen. -->
-                  </p>
-
-                </div>
-
-
-              </div>
-
-<!--               <div class="row">
-                <div class="col-lg-12 col-md-12 col-md-offset-3" data-aos="fade-right">
-                  <img height="300" src="img/trawebdesign.jpg" alt="traditionele_webdesign" class="afbeelding">
-                </div>
-              </div> -->
-
-              <div class="row">
-                <div class="col-md-12 text-center" style="margin-top:40px">
-                  <h4>TRADITIONEEL WEBDESIGN IS DOOD.</h4>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-md-offset-2 col-md-8">
-<!--                   <div class="text-editor">
-                    <code>
-                      &lt;div <span class="purple">class</span>="<span class="green">rellax</span>"&gt;<br>
-                      <span class="white">&nbsp;&nbsp;I’m slow and smooth</span><br>
-                      &lt;/div&gt;
-                    </code>
-                  </div> -->
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
                 </div>
               </div>
 
@@ -297,13 +246,6 @@
 
               <div class="row">
                 <div class="col-md-offset-2 col-md-8">
-<!--                   <div class="text-editor">
-                    <code>
-                      &lt;div <span class="purple">class</span>="<span class="green">rellax</span>" <span class="purple">data-rellax-speed</span>="<span class="green">6</span>"&gt;<br>
-                      <span class="white">&nbsp;&nbsp;I’m slow and smooth</span><br>
-                      &lt;/div&gt;
-                    </code>
-                  </div> -->
                 </div>
               </div>
 
@@ -336,782 +278,709 @@
           </div>
 
           <div class="col-md-2 col-md-offset-5">
-              <div class="bt-red rellax"
-              data-rellax-speed="3"
-              style="transform: rotate(38deg);">
-            </div>
-          </div>
-
-          <div class="col-md-offset-5 col-md-1">
-            <div class="md-twitter rellax"
-            data-rellax-speed="1"
-            style="transform: rotate(45deg);">
+            <div class="bt-red rellax"
+            data-rellax-speed="3"
+            style="transform: rotate(38deg);">
           </div>
         </div>
 
-        <div class="col-md-1">
-          <div class="md-facebook rellax"
-          data-rellax-speed="3"
-          data-rellax-percentage="0.5"
+        <div class="col-md-offset-5 col-md-1">
+          <div class="md-twitter rellax"
+          data-rellax-speed="1"
           style="transform: rotate(45deg);">
         </div>
       </div>
 
-
-</div>
-</div>
-</div>
-
-        
-       <!--  <div class="container"> -->
-            <div class="row">
-              <div class="col-md-offset-1 col-md-6 kop2" data-aos="fade-right">
-                <h1>RISICO'S VAN TRADITIONEEL WEBDESIGN</h1>
-              </div>
-            </div>
-        <!-- </div> -->
-
-        <div class="copy" style="margin-top: 200px; margin-bottom: 300px">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-offset-1 col-md-6" data-aos="fade-right">
-                <h4>HET IS ZO DUUR!</h4>
-                 <p class="paragraaftekst">
-                  Een gemiddelde website maken en onderhouden kost tussen de 15.000 en 80.000 Euro! Dit is een enorme investering voor een bedrijf, besteed er dus veel aandacht aan.</a>
-                </p>
-              </div>
-              <div class="col-md-offset-1 col-md-4" data-aos="fade-right">
-               <i class="fa fa-eur icon" style="color: #6ef2ca;" aria-hidden="true"></i>
-               <i class="fa fa-eur icon" style="color: #6ef2ca;" aria-hidden="true"></i>
-              </div>
-            </div>
-
-            <div class="row" style="margin-top: 100px">
-               <div class="col-md-offset-1 col-md-4" data-aos="fade-right">
-               <i class="fa fa-clock-o icon" style="color: #6a00f5;" aria-hidden="true"></i>
-              </div>
-
-              <div class=" col-md-6" data-aos="fade-left">
-                <h4>HET DUURT ZO LANG!</h4>
-                 <p class="paragraaftekst">
-                  Het maken en uiteindelijk live gaan van een website is een enorm traag en langdurig proces. Op het moment dat alles is goedgekeurd en uitgevoerd kan worden ben je vele weken verder. 
-                </p>
-              </div>
-            </div>
-
-            <div class="row" style="margin-top: 100px">
-              <div class="col-md-offset-1 col-md-6" data-aos="fade-left">
-                <h4>ER ZIJN VERSCHRIKKELIJK VEEL MENSEN MEE GEMOEID</h4>
-                 <p class="paragraaftekst">
-                  Al wordt er binnen het bedrijf gezegd dat er genoeg tijd en rekening mee gehouden wordt, na een tijd gaat het toch kriebelen. Er moet nu wat komen!
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-              <div class="col-md-offset-6 col-md-4 kop2" style="margin-top: 100px" data-aos="fade-right">
-                <h2>Na het lanceren komt er 2 jaar geen update</h2>
-              </div>
-          </div>
-
-
-          <div class="container">
-            <div class="row">
-              <div class="col-md-offset-1 col-md-6" data-aos="fade-right">
-                <p class="paragraaftekst">
-                  Wat het excuus ook mag zijn, het is klote. Een website is vaak de grootste bron van klanditie. Dit gegeven moet er goed uit zien. Vergeet niet dat je een eerste indruk maar één keer maakt.
-                </p>
-              </div>
-            </div>
-          </div>
-
-<!--           <div class="row">
-            <div class="col-lg-12 col-md-12 col-md-offset-3" data-aos="fade-right">
-              <img height="300" src="img/trawebdesign.jpg" alt="traditionele_webdesign" class="afbeelding">
-            </div>
-          </div> -->
-      </section>
-
-<!-- /////////// Hier stopt eerste deel //////////////// -->
-
-<!-- <div class="absolute above" style="pointer-events: none;">
-  <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-2">
-          <div class="bt-red rellax"
-            data-rellax-speed="0.5"
-            style="transform: rotate(45deg);">
-            <i class="fa fa-line-chart" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-  </div>
-</div> -->
-
-
-<section class="section">
-
-  
-  <div class="absolute above" style="pointer-events: none;">
-    <div class="container">
-      <div class="row">
-            <div class="col-md-offset-1 col-md-2">
-                <div class="bt-red rellax"
-                data-rellax-speed="5"
-                style="transform: rotate(77deg);">
-              </div>
-            </div>
-
-            <div class="col-md-offset-0 col-md-1">
-              <div class="md-dixonandmoe rellax"
-              data-rellax-speed="2"
-              style="transform: rotate(48deg);">
-              </div>
-            </div>
-
-          <div class="col-md-offset-5 col-md-1">
-            <div class="md-twitter rellax"
-            data-rellax-speed="1"
-            style="transform: rotate(45deg);">
-            </div>
-          </div>
-
-        <div class="col-md-1">
-          <div class="md-facebook rellax"
-          data-rellax-speed="3"
-          data-rellax-percentage="0.5"
-          style="transform: rotate(45deg);">
-          </div>
-        </div>
-
-<!--       <div class="col-md-1">
+      <div class="col-md-1">
         <div class="md-facebook rellax"
         data-rellax-speed="3"
         data-rellax-percentage="0.5"
         style="transform: rotate(45deg);">
-        </div>
-      </div> -->
+      </div>
+    </div>
+
+
+  </div>
+</div>
+</div>
+
+
+<!--  <div class="container"> -->
+<div class="row">
+  <div class="col-md-offset-1 col-md-6 kop2" data-aos="fade-right">
+    <h1>RISICO'S VAN TRADITIONEEL WEBDESIGN</h1>
+  </div>
+</div>
+<!-- </div> -->
+
+<div class="copy" style="margin-top: 200px; margin-bottom: 300px">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-1 col-md-6" data-aos="fade-right">
+        <h4>HET IS ZO DUUR!</h4>
+        <p class="paragraaftekst">
+          Een gemiddelde website maken en onderhouden kost tussen de 15.000 en 80.000 Euro! Dit is een enorme investering voor een bedrijf, besteed er dus veel aandacht aan.</a>
+        </p>
+      </div>
+      <div class="col-md-offset-1 col-md-4" data-aos="fade-right">
+       <i class="fa fa-eur icon" style="color: #6ef2ca;" aria-hidden="true"></i>
+       <i class="fa fa-eur icon" style="color: #6ef2ca;" aria-hidden="true"></i>
+     </div>
+   </div>
+
+   <div class="row" style="margin-top: 100px">
+     <div class="col-md-offset-1 col-md-4" data-aos="fade-right">
+       <i class="fa fa-clock-o icon" style="color: #6a00f5;" aria-hidden="true"></i>
+     </div>
+
+     <div class=" col-md-6" data-aos="fade-left">
+      <h4>HET DUURT ZO LANG!</h4>
+      <p class="paragraaftekst">
+        Het maken en uiteindelijk live gaan van een website is een enorm traag en langdurig proces. Op het moment dat alles is goedgekeurd en uitgevoerd kan worden ben je vele weken verder. 
+      </p>
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 100px">
+    <div class="col-md-offset-1 col-md-6" data-aos="fade-left">
+      <h4>ER ZIJN VERSCHRIKKELIJK VEEL MENSEN MEE GEMOEID</h4>
+      <p class="paragraaftekst">
+        Al wordt er binnen het bedrijf gezegd dat er genoeg tijd en rekening mee gehouden wordt, na een tijd gaat het toch kriebelen. Er moet nu wat komen!
+      </p>
     </div>
   </div>
 </div>
 
-  <div style="margin-top: 200px">
+<div class="row">
+  <div class="col-md-offset-6 col-md-4 kop2" style="margin-top: 100px" data-aos="fade-right">
+    <h2>Na het lanceren komt er 2 jaar geen update</h2>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-offset-1 col-md-6" data-aos="fade-right">
+      <p class="paragraaftekst">
+        Wat het excuus ook mag zijn, het is klote. Een website is vaak de grootste bron van klanditie. Dit gegeven moet er goed uit zien. Vergeet niet dat je een eerste indruk maar één keer maakt.
+      </p>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section class="section">
+
+
+  <div class="absolute above" style="pointer-events: none;">
     <div class="container">
-
       <div class="row">
-        <div class="col-md-12 text-center kop2">
-          <h1>GROWTH DRIVEN DESIGN</h1>
-          <h5>Wat moet er veranderen?</h5>
+        <div class="col-md-offset-1 col-md-2">
+          <div class="bt-red rellax"
+          data-rellax-speed="5"
+          style="transform: rotate(77deg);">
         </div>
       </div>
 
-      <div class="absolute">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-offset-1 col-md-11">
-              <h2 class="rellax" data-rellax-speed="-3">Een eye-opener voor velen</h2>
-
-            </div>
-          </div>
-        </div>
+      <div class="col-md-offset-0 col-md-1">
+        <div class="md-dixonandmoe rellax"
+        data-rellax-speed="2"
+        style="transform: rotate(48deg);">
       </div>
+    </div>
 
+    <div class="col-md-offset-5 col-md-1">
+      <div class="md-twitter rellax"
+      data-rellax-speed="1"
+      style="transform: rotate(45deg);">
+    </div>
+  </div>
 
+  <div class="col-md-1">
+    <div class="md-facebook rellax"
+    data-rellax-speed="3"
+    data-rellax-percentage="0.5"
+    style="transform: rotate(45deg);">
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 200px">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12 text-center kop2">
+        <h1>GROWTH DRIVEN DESIGN</h1>
+        <h5>Wat moet er veranderen?</h5>
+      </div>
+    </div>
+
+    <div class="absolute">
       <div class="container">
         <div class="row">
-          <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
-            <p class="paragraaftekst">
-              Het is tijd dat we een stapje terugnemen en kijken naar hoe
-              we website redesign vanuit een ander standpunt kunnen doorvoeren.
-              We moeten een superieur proces (uit)vinden dat elk risico van een
-              traditioneel webdesignproces vermijdt en bovendien voor een optimaal
-              presterende website zorgt.
-              We willen een webdesignproces dat snel en flexibel is en bovendien
-              voor betere resultaten zorgt. En dit proces?
-              Dat vatten we onder growth-driven design.
-            </p>
+          <div class="col-md-offset-1 col-md-11">
+            <h2 class="rellax" data-rellax-speed="-3">Een eye-opener voor velen</h2>
 
           </div>
         </div>
       </div>
-
-             <!--  <div class="container"> -->
-            <div class="row">
-              <div class="col-md-offset-1 col-md-6 kop2" data-aos="fade-right">
-                <h1>HET NIEUWE WEBDESIGN</h1>
-              </div>
-            </div>
-        <!-- </div> -->
-
-        <div class="copy" style="margin-top: 200px; margin-bottom: 100px">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-offset-1 col-md-6" data-aos="fade-right">
-                <h4>Minimaliseer de risico’s die traditioneel webdesign met zich meebrengt</h4>
-                <p class="paragraaftekst">
-                Hiervoor werken we met een systematische aanpak die de
-                lanceringstijd korter maakt, zich focust op realistische impact én
-                draait rond voortdurend bijleren en verbeteren.
-                </p>
-              </div>
-              <div class="col-md-offset-1 col-md-4" data-aos="fade-right">
-               <i class="fa fa-line-chart icon" aria-hidden="true"></i>
-              </div>
-            </div>
-
-            <div class="row" style="margin-top: 100px">
-              <div class="col-md-offset-5 col-md-6" data-aos="fade-left">
-                <h4>Voortdurend bijleren en verbeteren</h4>
-                 <p class="paragraaftekst">
-                  Growth driven design is constant bijschaven, onderzoeken en bijleren. Vooral over je gebruikers.
-                </p>
-              </div>
-            </div>
-
-            <div class="row" style="margin-top: 100px">
-              <div class="col-md-offset-1 col-md-6" data-aos="fade-left">
-                <h4>Marketing & Sales</h4>
-                 <p class="paragraaftekst">
-                  Je staat tijdens het proces in direct contact met marketing en sales. Zij kunnen je de informatie geven die je nodig hebt tijdens het achterhalen van de website resultaten. 
-                </p>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-offset-3 col-md-6">
-                <img height="350" src="img/agile2.png" alt="traditionele_webdesign" class="afbeelding">
-              </div>
-            </div>
-
-          </div>
+    </div>
 
 
-            </div>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
+          <p class="paragraaftekst">
+            Het is tijd dat we een stapje terugnemen en kijken naar hoe
+            we website redesign vanuit een ander standpunt kunnen doorvoeren.
+            We moeten een superieur proces (uit)vinden dat elk risico van een
+            traditioneel webdesignproces vermijdt en bovendien voor een optimaal
+            presterende website zorgt.
+            We willen een webdesignproces dat snel en flexibel is en bovendien
+            voor betere resultaten zorgt. En dit proces?
+            Dat vatten we onder growth-driven design.
+          </p>
+
         </div>
-  </section>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-1 col-md-6 kop2" data-aos="fade-right">
+        <h1>HET NIEUWE WEBDESIGN</h1>
+      </div>
+    </div>
 
-      <!-- /////////// Hier stopt tweede deel //////////////// -->
 
-      <section class="section">
+    <div class="copy" style="margin-top: 200px; margin-bottom: 100px">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-1 col-md-6" data-aos="fade-right">
+            <h4>Minimaliseer de risico’s die traditioneel webdesign met zich meebrengt</h4>
+            <p class="paragraaftekst">
+              Hiervoor werken we met een systematische aanpak die de
+              lanceringstijd korter maakt, zich focust op realistische impact én
+              draait rond voortdurend bijleren en verbeteren.
+            </p>
+          </div>
+          <div class="col-md-offset-1 col-md-4" data-aos="fade-right">
+           <i class="fa fa-line-chart icon" aria-hidden="true"></i>
+         </div>
+       </div>
 
-        <div class="absolute above" style="pointer-events: none;">
+       <div class="row" style="margin-top: 100px">
+        <div class="col-md-offset-5 col-md-6" data-aos="fade-left">
+          <h4>Voortdurend bijleren en verbeteren</h4>
+          <p class="paragraaftekst">
+            Growth driven design is constant bijschaven, onderzoeken en bijleren. Vooral over je gebruikers.
+          </p>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 100px">
+        <div class="col-md-offset-1 col-md-6" data-aos="fade-left">
+          <h4>Marketing & Sales</h4>
+          <p class="paragraaftekst">
+            Je staat tijdens het proces in direct contact met marketing en sales. Zij kunnen je de informatie geven die je nodig hebt tijdens het achterhalen van de website resultaten. 
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+          <img height="350" src="img/agile2.png" alt="traditionele_webdesign" class="afbeelding">
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</div>
+</div>
+</section>
+
+<!-- /////////// Hier stopt tweede deel //////////////// -->
+
+<section class="section">
+
+  <div class="absolute above" style="pointer-events: none;">
     <div class="container">
       <div class="row">
 
 
-            <div class="col-md-offset-1 col-md-2 col-xs-offset-1 col-xs-2">
-                <div class="bt-red rellax"
-                data-rellax-speed="5"
-                style="transform: rotate(77deg);">
-              </div>
-            </div>
+        <div class="col-md-offset-1 col-md-2 col-xs-offset-1 col-xs-2">
+          <div class="bt-red rellax"
+          data-rellax-speed="5"
+          style="transform: rotate(77deg);">
+        </div>
+      </div>
 
-            <div class="col-md-2 col-xs-2">
-              <div class="md-dixonandmoe rellax"
-              data-rellax-speed="0.5"
-              style="transform: rotate(40deg);">
-              </div>
-            </div>
+      <div class="col-md-2 col-xs-2">
+        <div class="md-dixonandmoe rellax"
+        data-rellax-speed="0.5"
+        style="transform: rotate(40deg);">
+      </div>
+    </div>
 
-              <div class="col-md-offset-5 col-md-1 col-xs-offset-5 col-xs-1">
-                <div class="md-twitter rellax"
-                data-rellax-speed="1"
-                style="transform: rotate(45deg);">
-                </div>
-              </div>
+    <div class="col-md-offset-5 col-md-1 col-xs-offset-5 col-xs-1">
+      <div class="md-twitter rellax"
+      data-rellax-speed="1"
+      style="transform: rotate(45deg);">
+    </div>
+  </div>
 
-            <div class="col-md-1 col-xs-1">
-              <div class="md-facebook rellax"
-              data-rellax-speed="3"
-              data-rellax-percentage="0.5"
-              style="transform: rotate(45deg);">
-              </div>
-            </div>
+  <div class="col-md-1 col-xs-1">
+    <div class="md-facebook rellax"
+    data-rellax-speed="3"
+    data-rellax-percentage="0.5"
+    style="transform: rotate(45deg);">
+  </div>
+</div>
 
-            <div class="col-md-4 col-xs-4 icon">
+<div class="col-md-4 col-xs-4 icon">
+  <div class="md-facebook rellax"
+  data-rellax-speed="3"
+  data-rellax-percentage="0.5"
+  style="transform: rotate(45deg);">
+</div>
+
+</div>
+
+          </div>
+
+
+
+          <div class="col-md-1 col-xs-1">
             <div class="md-facebook rellax"
-              data-rellax-speed="3"
-              data-rellax-percentage="0.5"
-              style="transform: rotate(45deg);">
-            </div>
-
-            </div>
-
-            <!-- <div class="col-md-4 col-md-offset-8" data-aos="fade-right">
-              <div class="afbeelding" 
-              data-rellax-speed="-2"
-              data-rellax-percentage="1"
-              style="transform: rotate(15deg);">
-                <img class="afbeelding" height="250" src="img/persona.jpg" alt="">
-              </div>
-            </div> -->
-
-            </div>
-
-
-
-      <div class="col-md-1 col-xs-1">
-        <div class="md-facebook rellax"
-        data-rellax-speed="1"
-        data-rellax-percentage="0.5"
-        style="transform: rotate(45deg);">
+            data-rellax-speed="1"
+            data-rellax-percentage="0.5"
+            style="transform: rotate(45deg);">
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+
+  <div class="row">
+    <div class="col-md-12 text-center kop2">
+      <h1>FASE 1</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs3 processteps" data-aos="fade-right">
+        <div class="process">
+          <div class="process-row">
+            <div class="process-step">
+              <button type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-calendar fa-5x" aria-hidden="true"></i></button>
+              <p>STRATEGIE</p>
+            </div>
+            <div class="process-step">
+              <button type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-list fa-5x" aria-hidden="true"></i></button>
+              <p>WISHLIST</p>
+            </div>
+            <div class="process-step">
+              <button type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-rocket fa-5x" aria-hidden="true"></i></button>
+              <p>LAUNCHPAD<BR>WEBSITE</p>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
+        <h1>STRATEGIE</h1>
+        <p class="paragraaftekst">
+          Net zoals in het traditionele websitedesignproces, draait ook het
+          eerste stadium van growth-driven design rond strategiebepaling.
+          In dit stadium ontwikkelen we een ijzersterke basis waar we
+          het volledige proces op baseren.
+        </p>
+        <img src="img/strategie.png" alt="">
+
+      </div>
+
+      <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
+
+        <h1>WISHLIST</h1>
+        <p class="paragraaftekst">
+          De volgende stap in het growth-driven designprocess is de
+          ontwikkeling van een wishlist. Neem mee wat je hebt geleerd in de
+          strategische planning, verzamel je team en begin te
+          brainstormen: gooi elk creatief/innovatief idee op tafel waarvan je
+          denkt dat het impact zou kunnen hebben.
+          Wat belangrijk is bij deze brainstormsessie, is dat je begint met een
+          schone lei. Denk na over de goals die je wil bereiken in een ideale
+          wereld waar geld, tijd en development skills geen issue zijn. En onthoud: <b>The 20% of items that will produce 80% of the impact for your website’s users, is the most important.</b>
+        </p>
+
+        <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
+          <video width="450" height="285" controls> 
+            <source src="video/wishlist.mp4"></source> 
+            <source src="video/wishlist.webm"></source> 
+          </video>
+
+        </div>
+
+
+
+      </div>
+
+      <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
+        <h1>LAUNCHPAD</h1>
+        <p class="paragraaftekst">
+          In het traditionele webdesignproces wordt de lancering van de
+          website als het einde van het project beschouwd.
+          Via growth-driven design denken we hier anders over.
+          <br></br>
+          Een Launch pad website is het startpunt van waaruit je
+          andere growth-driven designacties -en verbeteringen vertrekken.
+          De grootte en complexiteit van de launch pad website hangt af
+          van wat je op je wishlist hebt staan en van wat voor type
+          website je hebt. Hoe dan ook, is het bijzonder belangrijk dat je
+          tot de essentie durft gaan: probeer te komen tot 20% van wat je
+          nodig acht en zorg ervoor dat je enkel de dingen selecteert die
+          een impact zullen teweegbrengen.
+        </p>
+
+      </div>
+      <div class="col-md-12 col-md-offset-1 flatmacbook" data-aos="fade-left">
+        <img src="img/flatmacbookduo.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 text-center kop2">
+      <h1>FASE 2</h1>
+      <h5>DE GROWTH-DRIVEN DESIGNCYCLUS </h5>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
+        <p class="paragraaftekst">
+         Wanneer je je Launch pad website gelanceerd hebt, is het tijd
+         om verschillende cycli op te starten: zo kan je voortdurend
+         experimenteren, bijleren en verbeteren. Hou je wishlist steeds bij
+         de hand en update hem geregeld.
+       </p>
+     </div>
+
+     <div class="col-md-offset-3 col-md-6" data-aos="fade-right">
+      <img height="500" src="img/agile.png" alt="traditionele_webdesign" class="afbeelding">
+    </div>
+
+    <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
+      <p class="paragraaftekst">
+       Alles draait om de persona. In elk stadium van de cyclus moet je het
+       verband zoeken tussen de actie en de persona: zorgt de actie in
+       kwestie effectief voor meerwaarde voor de persona?
+     </p>
+   </div>
+
+ </div>
 </div>
 
-<!--         <div style="margin-top: 0px">
-          <div class="container">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 planning" data-aos="fade-right">
+      <h1>Prestatie vs. doelstelling:</h1>
+      <p class="paragraaftekst">
+        Analyseer de huidige prestaties van
+        de website en plaats deze tegenover de gestelde doelstellingen.
+        Dit zal duidelijk maken waar er nood is aan verbetering.
+      </p>
+    </div>
 
-            <div class="row">
-              <div class="col-md-12 text-center kop2">
-                <h1>GROWTH DRIVEN DESIGN</h1>
-                <h5>Proces</h5>
-              </div>
-            </div> -->
-<!-- 
+    <div class="col-md-6 planning" data-aos="fade-right">
+     <canvas id="chartJSContainer" width="400" height="200"></canvas>
+     <script>
+     var options = {
+      type: 'line',
+      data: {
+        labels: ["Zonadag", "Zaterdag", "Vrijdag", "Donderdag", "Woensdag", "Dinsdag", "Maandag"],
+        datasets: [
+        {
+          label: 'Prestatie ',
+          data: [2, 5, 3, 5, 2, 3,7],
+          borderWidth: 1,
+          opacity: 1,
+          backgroundColor: "#6ff2ca",
 
-            <div class="container">
-              <div class="row">
-                <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
-                  <p class="paragraaftekst">
-                    Het is tijd dat we een stapje terugnemen en kijken naar hoe
-                    we website redesign vanuit een ander standpunt kunnen doorvoeren.
-                    We moeten een superieur proces (uit)vinden dat elk risico van een
-                    traditioneel webdesignproces vermijdt en bovendien voor een optimaal
-                    presterende website zorgt.
-                    We willen een webdesignproces dat snel en flexibel is en bovendien
-                    voor betere resultaten en een hogere ROI zorgt. En dit proces?
-                    Dat noemen we  Growth-Driven Design.
-                  </p>
+        },  
+        {
+          label: 'Doel',
+          data: [7, 11, 5, 8, 3, 12,8],
+          borderWidth: 1,
+          backgroundColor: "#574af1",
+        }
+        ]
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              reverse: false
+            }
+          }]
+        }
+      }
+    }
 
-                </div>
-              </div>
-            </div> -->
+    var ctx = document.getElementById('chartJSContainer').getContext('2d');
+    new Chart(ctx, options);
+    </script>
+  </div>
 
-            <div class="row">
-              <div class="col-md-12 text-center kop2">
-                <h1>FASE 1</h1>
-              </div>
-            </div>
-
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs3 processteps" data-aos="fade-right">
-                  <div class="process">
-                    <div class="process-row">
-                      <div class="process-step">
-                        <button type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-calendar fa-5x" aria-hidden="true"></i></button>
-                        <p>STRATEGIE</p>
-                      </div>
-                      <div class="process-step">
-                        <button type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-list fa-5x" aria-hidden="true"></i></button>
-                        <p>WISHLIST</p>
-                      </div>
-                      <div class="process-step">
-                        <button type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-rocket fa-5x" aria-hidden="true"></i></button>
-                        <p>LAUNCHPAD<BR>WEBSITE</p>
-                      </div>  
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="container">
-              <div class="row">
-                <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
-                  <h1>STRATEGIE</h1>
-                  <p class="paragraaftekst">
-                    Net zoals in het traditionele websitedesignproces, draait ook het
-                    eerste stadium van growth-driven design rond strategiebepaling.
-                    In dit stadium ontwikkelen we een ijzersterke basis waar we
-                    het volledige proces op baseren.
-                  </p>
-                <img src="img/strategie.png" alt="">
-
-                </div>
-
-                <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
-
-                  <h1>WISHLIST</h1>
-                  <p class="paragraaftekst">
-                    De volgende stap in het growth-driven designprocess is de
-                    ontwikkeling van een wishlist. Neem mee wat je hebt geleerd in de
-                    strategische planning, verzamel je team en begin te
-                    brainstormen: gooi elk creatief/innovatief idee op tafel waarvan je
-                    denkt dat het impact zou kunnen hebben.
-                    Wat belangrijk is bij deze brainstormsessie, is dat je begint met een
-                    schone lei. Denk na over de goals die je wil bereiken in een ideale
-                    wereld waar geld, tijd en development skills geen issue zijn. En onthoud: <b>The 20% of items that will produce 80% of the impact for your website’s users, is the most important.</b>
-                  </p>
-
-                    <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
-                      <video width="450" height="285" controls> 
-                        <source src="video/wishlist.mp4"></source> 
-                        <source src="video/wishlist.webm"></source> 
-                    </video>
-
-                    </div>
-                 
-              
-
-                </div>
-
-                <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
-                  <h1>LAUNCHPAD</h1>
-                  <p class="paragraaftekst">
-                    In het traditionele webdesignproces wordt de lancering van de
-                    website als het einde van het project beschouwd.
-                    Via growth-driven design denken we hier anders over.
-                    <br></br>
-                    Een Launch pad website is het startpunt van waaruit je
-                    andere growth-driven designacties -en verbeteringen vertrekken.
-                    De grootte en complexiteit van de launch pad website hangt af
-                    van wat je op je wishlist hebt staan en van wat voor type
-                    website je hebt. Hoe dan ook, is het bijzonder belangrijk dat je
-                    tot de essentie durft gaan: probeer te komen tot 20% van wat je
-                    nodig acht en zorg ervoor dat je enkel de dingen selecteert die
-                    een impact zullen teweegbrengen.
-                  </p>
-
-                </div>
-                <div class="col-md-12 col-md-offset-1 flatmacbook" data-aos="fade-left">
-                  <img src="img/flatmacbookduo.png" alt="">
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 text-center kop2">
-                <h1>FASE 2</h1>
-                <h5>DE GROWTH-DRIVEN DESIGNCYCLUS </h5>
-              </div>
-            </div>
-
-            <div class="container">
-              <div class="row">
-                <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
-                  <p class="paragraaftekst">
-                   Wanneer je je Launch pad website gelanceerd hebt, is het tijd
-                    om verschillende cycli op te starten: zo kan je voortdurend
-                    experimenteren, bijleren en verbeteren. Hou je wishlist steeds bij
-                    de hand en update hem geregeld.
-                  </p>
-                </div>
-
-                <div class="col-md-offset-3 col-md-6" data-aos="fade-right">
-                  <img height="500" src="img/agile.png" alt="traditionele_webdesign" class="afbeelding">
-                </div>
-
-                <div class="col-md-offset-2 col-md-8" data-aos="fade-right">
-                  <p class="paragraaftekst">
-                   Alles draait om de persona. In elk stadium van de cyclus moet je het
-                  verband zoeken tussen de actie en de persona: zorgt de actie in
-                  kwestie effectief voor meerwaarde voor de persona?
-                  </p>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6 planning" data-aos="fade-right">
-                  <h1>Prestatie vs. doelstelling:</h1>
-                  <p class="paragraaftekst">
-                  Analyseer de huidige prestaties van
-                  de website en plaats deze tegenover de gestelde doelstellingen.
-                  Dit zal duidelijk maken waar er nood is aan verbetering.
-                  </p>
-                </div>
-
-                <div class="col-md-6 planning" data-aos="fade-right">
-                   <canvas id="chartJSContainer" width="400" height="200"></canvas>
-                   <script>
-                    var options = {
-                      type: 'line',
-                      data: {
-                        labels: ["Zonadag", "Zaterdag", "Vrijdag", "Donderdag", "Woensdag", "Dinsdag", "Maandag"],
-                        datasets: [
-                          {
-                            label: 'Prestatie ',
-                            data: [2, 5, 3, 5, 2, 3,7],
-                            borderWidth: 1,
-                            opacity: 1,
-                            backgroundColor: "#6ff2ca",
-
-                          },  
-                          {
-                            label: 'Doel',
-                            data: [7, 11, 5, 8, 3, 12,8],
-                            borderWidth: 1,
-                            backgroundColor: "#574af1",
-                          }
-                        ]
-                      },
-                      options: {
-                        scales: {
-                          yAxes: [{
-                            ticks: {
-                              reverse: false
-                            }
-                          }]
-                        }
-                      }
-                    }
-
-                    var ctx = document.getElementById('chartJSContainer').getContext('2d');
-                    new Chart(ctx, options);
-                   </script>
-                </div>
-
-                <div class="col-md-6 planning" data-aos="fade-left">
-                  <canvas id="bar-chart" width="350" height="200"></canvas>
-                  <script>
+  <div class="col-md-6 planning" data-aos="fade-left">
+    <canvas id="bar-chart" width="350" height="200"></canvas>
+    <script>
                      // Return with commas in between
-                        var numberWithCommas = function(x) {
-                          return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                        };
+                     var numberWithCommas = function(x) {
+                      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                    };
 
-                      var dataPack1 = [3000, 16000, 26000, 35000, 55000, 55000,4400];
-                      var dataPack2 = [1000, 1200, 1300, 1400, 1060, 2030, 2070];
-                      var dates = ["Homepage", "Overons", "Portfolio", "Contact", "Navbar", "Footer", 
-                                 "Forms"];
+                    var dataPack1 = [3000, 16000, 26000, 35000, 55000, 55000,4400];
+                    var dataPack2 = [1000, 1200, 1300, 1400, 1060, 2030, 2070];
+                    var dates = ["Homepage", "Overons", "Portfolio", "Contact", "Navbar", "Footer", 
+                    "Forms"];
 
                       // Chart.defaults.global.elements.rectangle.backgroundColor = '#FF0000';
 
                       var bar_ctx = document.getElementById('bar-chart');
                       var bar_chart = new Chart(bar_ctx, {
-                          type: 'bar',
-                          data: {
-                              labels: dates,
-                              datasets: [
-                              {
-                                  label: 'Voor wishlist',
-                                  data: dataPack1,
-                                  backgroundColor: "#6ff2ca",
-                                  hoverBackgroundColor: "#6ff2ca",
-                                  hoverBorderWidth: 2,
-                                  hoverBorderColor: 'lightgrey'
-                              },
-                              {
-                                  label: 'Na wishlist ',
-                                  data: dataPack2,
-                                  backgroundColor: "#574af1",
-                                  hoverBackgroundColor: "#574af1",
-                                  hoverBorderWidth: 2,
-                                  hoverBorderColor: 'lightgrey'
-                              },
-                              ]
+                        type: 'bar',
+                        data: {
+                          labels: dates,
+                          datasets: [
+                          {
+                            label: 'Voor wishlist',
+                            data: dataPack1,
+                            backgroundColor: "#6ff2ca",
+                            hoverBackgroundColor: "#6ff2ca",
+                            hoverBorderWidth: 2,
+                            hoverBorderColor: 'lightgrey'
                           },
-                          options: {
-                              animation: {
-                                duration: 10,
-                              },
-                              tooltips: {
-                                mode: 'label',
-                                callbacks: {
-                                label: function(tooltipItem, data) { 
-                                  return data.datasets[tooltipItem.datasetIndex].label + ": " + numberWithCommas(tooltipItem.yLabel);
-                                }
-                                }
-                               },
-                              scales: {
-                                xAxes: [{ 
-                                  stacked: true, 
-                                  gridLines: { display: false },
-                                  }],
-                                yAxes: [{ 
-                                  stacked: true, 
-                                  ticks: {
-                                    callback: function(value) { return numberWithCommas(value); },
-                                  }, 
-                                  }],
+                          {
+                            label: 'Na wishlist ',
+                            data: dataPack2,
+                            backgroundColor: "#574af1",
+                            hoverBackgroundColor: "#574af1",
+                            hoverBorderWidth: 2,
+                            hoverBorderColor: 'lightgrey'
+                          },
+                          ]
+                        },
+                        options: {
+                          animation: {
+                            duration: 10,
+                          },
+                          tooltips: {
+                            mode: 'label',
+                            callbacks: {
+                              label: function(tooltipItem, data) { 
+                                return data.datasets[tooltipItem.datasetIndex].label + ": " + numberWithCommas(tooltipItem.yLabel);
+                              }
+                            }
+                          },
+                          scales: {
+                            xAxes: [{ 
+                              stacked: true, 
+                              gridLines: { display: false },
+                            }],
+                            yAxes: [{ 
+                              stacked: true, 
+                              ticks: {
+                                callback: function(value) { return numberWithCommas(value); },
+                              }, 
+                            }],
                               }, // scales
                               legend: {display: true}
                           } // options
-                         }
-                      );
-                  </script>
-                </div>
+                        }
+                        );
+</script>
+</div>
 
-                <div class="col-md-6 planning" data-aos="fade-left">
-                  <h1>Bijkomende data en onderzoek:</h1>
-                  <p class="paragraaftekst">
-                  Wanneer je uit de vorige
-                  cyclus komt en je de prestaties vergelijkt met de gestelde
-                  doelstellingen, zal je merken dat je meer onderzoek moet
-                  doen om te ondervinden welke items je moet toevoegen aan
-                  je wishlist.
-                  </p>
-                </div>
+<div class="col-md-6 planning" data-aos="fade-left">
+  <h1>Bijkomende data en onderzoek:</h1>
+  <p class="paragraaftekst">
+    Wanneer je uit de vorige
+    cyclus komt en je de prestaties vergelijkt met de gestelde
+    doelstellingen, zal je merken dat je meer onderzoek moet
+    doen om te ondervinden welke items je moet toevoegen aan
+    je wishlist.
+  </p>
+</div>
 
-                <div class="col-md-7 " data-aos="fade-right">
-                  <h1>Leer bij van marketing en sales:</h1>
-                  <p class="paragraaftekst">
-                 Zit regelmatig samen met je
-                  marketing- en salesteam om te bekijken wat ze hebben
-                  bijgeleerd over de bezoeker sinds je laatste cyclus.
-                  </p>
-                </div>
+<div class="col-md-7 " data-aos="fade-right">
+  <h1>Leer bij van marketing en sales:</h1>
+  <p class="paragraaftekst">
+   Zit regelmatig samen met je
+   marketing- en salesteam om te bekijken wat ze hebben
+   bijgeleerd over de bezoeker sinds je laatste cyclus.
+ </p>
+</div>
 
-                <div class="col-md-3 icon" data-aos="fade-right">
-                  <i class="fa fa-users" aria-hidden="true"></i>
-                </div>
+<div class="col-md-3 icon" data-aos="fade-right">
+  <i class="fa fa-users" aria-hidden="true"></i>
+</div>
 
-                <div class="col-md-6 icon" data-aos="fade-left">
-                 <i class="fa fa-reply-all" aria-hidden="true"></i>
-                </div>
+<div class="col-md-6 icon" data-aos="fade-left">
+ <i class="fa fa-reply-all" aria-hidden="true"></i>
+</div>
 
-                <div class="col-md-6" data-aos="fade-left">
-                  <h1>Brainstorm en pas je wishlist aan:</h1>
-                  <p class="paragraaftekst">
-                Hou een nieuwe brainstormsessie die gebaseerd is op nieuwe data, onderzoek en
-                andere nieuwtjes. Stel aan de hand hiervan nieuwe actie items
-                op en voeg ze toe aan je wishlist.
-                  </p>
-                </div>
-
-                
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section class="einde">
-          <div class="title">
-            <div class="row">
-              <div class="col-md-offset-1 col-md-6">
-                <h1>En dan..herhalen</h1>
-                <h3>Kijk ook naar het <a href="">dashboard!</a></h3>
-              </div>
-
-            </div>
-          </div>
-        
-      </section>
-
-      <section class="share">
-        <div class="container">
-          <div class="col-md-12 ">
-          <!-- <div class="row"> -->
-            <div class="col-md-6">
-              <a class="dam" href="http://jovalo.nl/">Joris van Loon</a>
-            </div>
-            <div class="col-md-2">
-              <a href="https://www.facebook.com/sharer/sharer.php?u=http://jorisvanloon.com/rellax/">Share <span>➔</span></a>
-            </div>
-            <div class="col-md-2">
-              <a href="https://twitter.com/share?url=http://jorisvanloon.com/rellax/">Tweet <span>➔</span></a>
-            </div>
-            <div class="col-md-2">
-              <a href="https://twitter.com/share?url=http://jorisvanloon.com/rellax/">Like <span>➔</span></a>
-            </div>
-          </div>
-      </section>
-
-    </main>
+<div class="col-md-6" data-aos="fade-left">
+  <h1>Brainstorm en pas je wishlist aan:</h1>
+  <p class="paragraaftekst">
+    Hou een nieuwe brainstormsessie die gebaseerd is op nieuwe data, onderzoek en
+    andere nieuwtjes. Stel aan de hand hiervan nieuwe actie items
+    op en voeg ze toe aan je wishlist.
+  </p>
+</div>
 
 
-    <!-- javascript -->
-    <script>
-      document.getElementById("demo").innerHTML = Date();
-    </script>
 
-    <script>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="einde">
+  <div class="title">
+    <div class="row">
+      <div class="col-md-offset-1 col-md-6">
+        <h1>En dan..herhalen</h1>
+        <h3>Kijk ook naar het <a href="">dashboard!</a></h3>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<section class="share">
+  <div class="container">
+    <div class="col-md-12 ">
+      <!-- <div class="row"> -->
+      <div class="col-md-6">
+        <a class="dam" href="http://jovalo.nl/">Joris van Loon</a>
+      </div>
+      <div class="col-md-2">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://jorisvanloon.com/rellax/">Share <span>➔</span></a>
+      </div>
+      <div class="col-md-2">
+        <a href="https://twitter.com/share?url=http://jorisvanloon.com/rellax/">Tweet <span>➔</span></a>
+      </div>
+      <div class="col-md-2">
+        <a href="https://twitter.com/share?url=http://jorisvanloon.com/rellax/">Like <span>➔</span></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+<!-- javascript -->
+<script>
+document.getElementById("demo").innerHTML = Date();
+</script>
+
+<script>
 var d = new Date();
 document.getElementById("demodag").innerHTML = d.getDay();
 </script>
 
 
 
-    <script type="text/javascript" src="rellax.js"></script>
-    <script>
-    	var rellax = new Rellax('.rellax', {
+<script type="text/javascript" src="rellax.js"></script>
+<script>
+var rellax = new Rellax('.rellax', {
         // center: true
         callback: function(position) {
             // callback every position change
             console.log(position);
-        }
-      });
-    </script>
-
-    <script>
-          AOS.init({
-            easing: 'ease-in-out-sine'
-          });
-    </script>
-
-    <script>
-      $(document).ready(function(){       
-            var scroll_pos = 0;
-            $(document).scroll(function() { 
-                scroll_pos = $(this).scrollTop();
-                if(scroll_pos > 2200) {
-                    $("body").css('background-color', '#f9f9f9');
-                    $("p").css('color', '#333333');
-                    $(".rellax").css('color', 'white');
-
-                } else {
-                    
-                }
-            });
+          }
         });
-    </script>
+</script>
 
-    <script>
-      $(document).ready(function(){       
-            var scroll_pos = 0;
-            $(document).scroll(function() { 
-                scroll_pos = $(this).scrollTop();
-                if(scroll_pos > 2000) {
+<script>
+AOS.init({
+  easing: 'ease-in-out-sine'
+});
+</script>
 
-                }
-            });
-        });
-    </script>
+<script>
+$(document).ready(function(){       
+  var scroll_pos = 0;
+  $(document).scroll(function() { 
+    scroll_pos = $(this).scrollTop();
+    if(scroll_pos > 2200) {
+      $("body").css('background-color', '#f9f9f9');
+      $("p").css('color', '#333333');
+      $(".rellax").css('color', 'white');
 
-    <script>
-      $(".type-wrap span:last").typed({
-        strings: ["^1000 Website redesigns are FRUSTRATING."],
-        typeSpeed: 50,
-        loop: false,
-        contentType: 'html'
-      });
+    } else {
 
-      $(".type-wrap2 span:last").typed({
-        strings: ["^1000 WISHLIST SAMENSTELLEN: <BR> Eerste"],
-        typeSpeed: 20,
-        loop: false,
-        contentType: 'html'
-      });
-    </script>
-
-
-    <script>
-      function updateProgress(num1, num2){
-      var percent = Math.ceil( num1 / num2 * 100 ) + '%';
-      document.getElementById('progress').style.width = percent;
     }
+  });
+});
+</script>
 
-    window.addEventListener('scroll', function(){
-      var top = window.scrollY;
-      var height = document.body.getBoundingClientRect().height - window.innerHeight;
-      updateProgress(top, height);
-    });
-    </script>
+<script>
+$(document).ready(function(){       
+  var scroll_pos = 0;
+  $(document).scroll(function() { 
+    scroll_pos = $(this).scrollTop();
+    if(scroll_pos > 2000) {
+
+    }
+  });
+});
+</script>
+
+<script>
+$(".type-wrap span:last").typed({
+  strings: ["^1000 Website redesigns are FRUSTRATING."],
+  typeSpeed: 50,
+  loop: false,
+  contentType: 'html'
+});
+
+$(".type-wrap2 span:last").typed({
+  strings: ["^1000 WISHLIST SAMENSTELLEN: <BR> Eerste"],
+  typeSpeed: 20,
+  loop: false,
+  contentType: 'html'
+});
+</script>
 
 
+<script>
+function updateProgress(num1, num2){
+  var percent = Math.ceil( num1 / num2 * 100 ) + '%';
+  document.getElementById('progress').style.width = percent;
+}
 
-
-
-    <div class="progressContainer"><div id="progress" class="progress"></div></div>
-  </body>
+window.addEventListener('scroll', function(){
+  var top = window.scrollY;
+  var height = document.body.getBoundingClientRect().height - window.innerHeight;
+  updateProgress(top, height);
+});
+</script>
+<div class="progressContainer"><div id="progress" class="progress"></div></div>
+</body>
 </html>
